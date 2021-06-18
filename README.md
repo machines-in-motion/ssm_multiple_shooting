@@ -3,7 +3,7 @@
 A Python implementation of the multiple shooting framework and all the code necessary to reproduce the experiments of the paper are provided. The core of the multiple shooting implementation is in the file named ssm.py.
 
 ### Create environment
-    $ cd ssm/
+    $ cd ssm_ms/
     $ conda env create -f environment.yml
     $ conda activate learning
 
