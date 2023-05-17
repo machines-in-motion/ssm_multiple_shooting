@@ -1,6 +1,6 @@
 # Learning Dynamical Systems from Noisy Sensor Measurements using Multiple Shooting
 
-A Python implementation of the multiple shooting framework and all the code necessary to reproduce the experiments of the paper are provided. The core of the multiple shooting implementation is in the file named ssm.py.
+A Python implementation of the multiple shooting framework and all the code necessary to reproduce the experiments of the [paper](https://arxiv.org/abs/2106.11712) are provided. The core of the multiple shooting implementation is in the file named ssm.py.
 
 ### Create environment
     $ cd ssm_ms/
@@ -51,3 +51,24 @@ Evaluation with a RNN:
     $ python lorenz_test_rnn.py --T 10000
 
 
+## Author
+- Armand Jordana
+
+## Citing
+
+```
+@article{jordana2021learning,
+  title={Learning dynamical systems from noisy sensor measurements using multiple shooting},
+  author={Jordana, Armand and Carpentier, Justin and Righetti, Ludovic},
+  journal={arXiv preprint arXiv:2106.11712},
+  year={2021}
+}
+```
+
+## Copyrights
+
+Copyright(c) 2019-2023 New York University
+
+## License
+
+BSD 3-Clause License
